@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <title>Menú responsivo</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- Header -->
+            <div class="search">
+                <ion-icon  name="search"></ion-icon>
+                <input type="text" placeholder="Buscar algo..." >
+            </div>
+        <!-- Menú -->             
+        <div id="menu">
+            <ul>
+                <a href="#">
+                    <li>
+                        <span><img class="user" src="img/user.jpg"></span>
+                        <p id="texto">Harry Styles</p> 
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon name="home"></ion-icon></span>
+                        <p id="texto">Inicio</p> 
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon class="icon-cart"name="cart"></span>
+                        <p id="texto">Carrito</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon name="heart"></ion-icon> </span>
+                        <p id="texto">Favoritos</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon name="notifications"></ion-icon> </span>
+                        <p id="texto">Notificaciones</p>
+                    </li>
+                </a>
+               <a href="#">
+                    <li> 
+                        <span> <ion-icon name="storefront"></ion-icon></span>
+                        <p id="texto">Tiendas</p>
+                    </li>
+                </a>                
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon name="help-circle"></ion-icon></span>
+                        <p id="texto">Conocenos</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        <span> <ion-icon name="log-out"></ion-icon></ion-icon></span>
+                        <p id="texto">Salir</p>
+                    </li>
+                </a>                
+            </ul>
+        </div>
+        <div class="fila">
+            <div class="categorias">
+                <ul>
+                    <li> <a href="#">Rostro</a></li>
+                    <li> <a>Mejillas</a></li>
+                    <li><a>Ojos</a></li>
+                    <li><a>Labios</a></li>
+                    <li><a>Brochas y aplicadores</a></li>
+                    <li><a>Accesorios</a></li>
+                </ul>
+            </div> 
+            <h1> <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i> Más populares <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i></h1>   
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/1.png">
+                </div>                
+                    <div class="inferior-card">
+                        <h4>Labial rojo</h4>
+                        <p>Labial en barra humectante con formula ligera y suave color rojo.</p>
+                        <div class="stars">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                        <h2>$250</h2>
+                    </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/2.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Maquillaje Compacto</h4>
+                    <p>Maquillaje en polvo compacto larga duración con apariencia impecable.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <h2>$400</h2>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart" name="heart"></ion-icon></ion-icon> </div>
+                    <img src="img/cards/3.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Set de sombra</h4>
+                    <p>Paleta de sombras ideal de 4 tonos para que tu maquillaje sea increíble.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <h2>$450</h2>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/4.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Labial rosa</h4>
+                    <p>Labial en barra humectante con formula ligera y suave color rosa.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <h2>$200</h2>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/5.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Rubor profesional</h4>
+                    <p>Para dar un toque de color a tus mejillas y resaltar tu maquillaje.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <h2>$150</h2>                    
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/6.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Brochas</h4>
+                    <p>Set de brochas y pinceles de maquillaje profesional con 5 piezas.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <h2>$650</h2>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/7.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Maquillaje Compacto</h4>
+                    <p>Maquillaje en polvo compacto larga duración con apariencia impecable.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h2>$350</h2>
+                </div>
+            </div>
+            <div class="columna">
+                <div class="card">
+                    <div class="heart-bar"><ion-icon class="heart"name="heart-outline" ></ion-icon> </div>
+                    <img src="img/cards/8.png">
+                </div>
+                <div class="inferior-card">
+                    <h4>Pestañas metalicas</h4>
+                    <p>Pestañas postizas magneticas de 3D son más suaves y más realistas.</p>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h2>$170</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
